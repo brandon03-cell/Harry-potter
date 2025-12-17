@@ -33,4 +33,5 @@ function displayPotterInfo(character) {
 form.addEventListener('submit', function(event) {
     event.preventDefault();
     const characterName = input.value.trim();
+    if (characterName) {fetchPotterData (characterName);}
 });
