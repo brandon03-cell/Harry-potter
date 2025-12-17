@@ -32,5 +32,5 @@ function displayPotterInfo(character) {
 
 form.addEventListener('submit', function(event) {
     event.preventDefault();
-    const characterName = input.ariaValueMax.trim();
+    const characterName = input.value.trim();
 });

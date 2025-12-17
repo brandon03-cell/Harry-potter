@@ -66,14 +66,12 @@ button :hover {
     margin-bottom: 15px;
 }
 
-.potter-info {
-    width: 100px;
-    display: none;
+.potter-info h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.potter-info img {
-    width: 100px;
-
+.potter-info p {
+    font-size: 14px;
+    margin: 5px 0;
 }
-
-.potter-info
