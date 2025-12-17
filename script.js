@@ -26,4 +26,11 @@ function displayPotterInfo(character) {
         <p><strong>Casa:</strong> ${house || 'Desconocida'}</p>
         <p><strong>Patronus:</strong> ${patronus || 'Desconocido'}<p/>
     `;
+
+    potterInfoDiv.style.display = 'block';
 }
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    const characterName = input.ariaValueMax.trim();
+});
